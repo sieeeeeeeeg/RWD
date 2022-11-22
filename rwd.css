@@ -1,0 +1,87 @@
+*
+{
+    box-sizing: border-box;
+}
+.container {
+   
+    background-color: antiquewhite;
+    border: solid green;
+    justify-content: center;
+    width: 60%;
+ 
+}
+
+.header {
+    background-color: yellowgreen;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    width: 60%;
+  
+    
+}
+.lists {
+    background-color: darkslategray;
+    width: 60%;
+}
+.lists ul {
+    margin: 0;
+}
+.lists ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.lists ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.box {
+    display: flex;
+    margin-top: 0;
+    padding-top: 0;
+    border-collapse: collapse;
+    width: 60%;
+}
+.box1 {
+    width: 600px;
+    padding: 10px;
+    border: 1px solid green;
+}
+.box2 {
+    width: 600px;
+    padding: 10px;
+    border: 1px solid green;
+}
+.box3 {
+    width: 600px;
+    padding: 10px;
+    border: 1px solid green;
+}
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: left;
+    line-height: 60px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    margin-left: 30px;
+}
+
+#check {
+    display: none;
+}
+
+a:hover {
+    opacity: .5;
+}
+
+@media screen and (max-width: 833px) {
+    .container,.box {
+     flex-wrap: wrap;
+    }
+ }
+
